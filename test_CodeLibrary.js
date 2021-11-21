@@ -8,9 +8,8 @@ if (typeof PMUtil === "undefined") {
             this.getText = () => {
             return "Hello Postman QA"}
         }
+        this.returnTestMsg=new testMsg();
     }
-    this.returnTestMsg=new testMsg();
-
     pmutil = new PMUtil()
 
     log = pmutil.log;
