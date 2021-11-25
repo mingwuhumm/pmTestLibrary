@@ -13,7 +13,7 @@ if (typeof PMFrameUtil === "undefined") {
     }
  
 
-    pmframeUtil = new pmframeUtil()
+    pmframeUtil = new PMFrameUtil()
 
     log = pmframeUtil.log;
     if (typeof init === "function") {
