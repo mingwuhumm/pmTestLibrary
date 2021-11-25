@@ -104,7 +104,7 @@ if (typeof PMFrameUtil === "undefined") {
             });
           }
 
-          this.reuseRequst=new executeReferencedRequest();
+          this.reuseRequst=new executeReferencedRequest("aa","bb");
     }
 
 
