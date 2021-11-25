@@ -6,7 +6,7 @@ if (typeof PMFrameUtil === "undefined") {
         const testMsg = function()
         {
             this.getText = () => {
-            return "Hello Postman QA"}
+            return This is the secondlibrary"}
         }
        
           this.reuseRequst=new testMsg();
