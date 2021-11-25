@@ -7,7 +7,9 @@ if (typeof PMFrameUtil === "undefined") {
         function executeReferencedRequest({ collectionUUID, requestName }, callback) {
             var _ = require('lodash');
             const API_KEY = "<API-KEY>";
-              
+            
+            console.log(collectionUUID, requestName)
+            
             pm.sendRequest({
               "method": "GET",
               "header": [{
@@ -95,7 +97,7 @@ if (typeof PMFrameUtil === "undefined") {
               callback && callback(null, collection);
             });
           }
-           //this.reuseRequst=new executeReferencedRequest(collectionId, requstName);
+           this.reuseRequst=new executeReferencedRequest("aa", "test");
     }
  
 
