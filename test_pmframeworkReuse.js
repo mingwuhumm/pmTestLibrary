@@ -95,7 +95,7 @@ if (typeof PMFrameUtil === "undefined") {
               callback && callback(null, collection);
             });
           }
-           this.reuseRequst=new executeReferencedRequest(collectionId, requstName);
+           //this.reuseRequst=new executeReferencedRequest(collectionId, requstName);
     }
  
 
